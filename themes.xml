@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base launcher theme: no title bar, transparent nav/status -->
+    <style name="Theme.NovaLauncher" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#6C8EFF</item>
+        <item name="colorPrimaryVariant">#4A6EE0</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSurface">#0D0D1E</item>
+        <item name="android:colorBackground">#0A0A1A</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+
+    <!-- Fullscreen for launcher and welcome -->
+    <style name="Theme.NovaLauncher.Fullscreen" parent="Theme.NovaLauncher">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <!-- Settings screens -->
+    <style name="Theme.NovaLauncher.Settings" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:colorBackground">#0D0D1E</item>
+        <item name="colorSurface">#0D0D1E</item>
+        <item name="android:statusBarColor">#0D0D1E</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+</resources>
